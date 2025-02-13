@@ -8,9 +8,9 @@ const greaterNumber = userChoiceFirst > userChoiceSecond;
 const similarNumber = userChoiceFirst === userChoiceSecond;
 
 if (greaterNumber) {
-    console.log(userChoiceFirst)
+    console.log(userChoiceFirst);
 } else if (similarNumber) {
-    console.log("i due numeri sono uguali")
+    console.log("i due numeri sono uguali");
 } else {
-    console.log(userChoiceSecond)
+    console.log(userChoiceSecond);
 }
