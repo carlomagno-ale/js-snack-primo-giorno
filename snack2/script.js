@@ -5,7 +5,7 @@ const userChoiceFirst = prompt("Scrivi una parola [es. gatto, pizza, ...]");
 const userChoiceSecond = prompt("Scrivi un'altra parola, diversa dalla prima [es. cane, hamburger ...]");
 
 const isGreater = userChoiceFirst.length > userChoiceSecond.length;
-const isSimilar = userChoiceFirst === userChoiceSecond;
+const isSimilar = userChoiceFirst.length === userChoiceSecond.length;
 
 if (isGreater) {
     console.log(userChoiceFirst);
